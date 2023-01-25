@@ -46,6 +46,12 @@ this.list = result.data.data;
   justify-content: center;
 }
 
+@media only screen and (min-width: 600px) {
+  .item {
+    background-color: green;
+  }
+}
+
 .item li {
   display: inline-block;
   border: 1px solid black;
@@ -54,8 +60,20 @@ this.list = result.data.data;
   padding: 5px;
 }
 
+@media only screen and (min-width: 600px) {
+  .item li {
+    background-color: yellow;
+  }
+}
+
 .item img {
   width: 50px;
+}
+
+@media only screen and (min-width: 600px) {
+  .item img {
+    background-color: lightblue;
+  }
 }
 
 </style>
