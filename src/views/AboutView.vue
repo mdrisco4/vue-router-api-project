@@ -12,7 +12,6 @@
   </div>
 </template>
 
-
 <script>
 import axios from "axios";
 export default {
@@ -27,16 +26,15 @@ export default {
   },
 
   async mounted() {
+    // let result = await axios.get("https://rest.coinapi.io/v1/quotes/latest");
+    // let result = await axios.get("https://api.coinranking.com/v2");
 
-// let result = await axios.get("https://rest.coinapi.io/v1/quotes/latest");
-// let result = await axios.get("https://api.coinranking.com/v2");
+    // let result = await axios.get("https://api.coinranking.com/v2/coins");
 
-// let result = await axios.get("https://api.coinranking.com/v2/coins");
-
-let result = await axios.get("https://reqres.in/api/users?page=1");
-// console.log(result.data.data);
-this.list = result.data.data;
-},
+    let result = await axios.get("https://reqres.in/api/users?page=1");
+    // console.log(result.data.data);
+    this.list = result.data.data;
+  },
 };
 </script>
 
@@ -75,5 +73,4 @@ this.list = result.data.data;
     background-color: lightblue;
   }
 }
-
 </style>
