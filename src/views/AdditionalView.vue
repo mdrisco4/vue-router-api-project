@@ -63,6 +63,7 @@ div#column-titles {
     padding: 1em;
     box-shadow: 1px 1px 0 lightgray;
     font-weight: 800;
+    text-decoration: underline;
 }
 
 div#crypto-container {
