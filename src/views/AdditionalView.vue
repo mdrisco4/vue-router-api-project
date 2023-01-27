@@ -1,6 +1,10 @@
-<template>
+  <template>
     <div class="additional">
-      <h1>This is page 3</h1>
+      <!-- <div id="crypto-container" v-for="(value, key) in cryptos"> -->
+        <div id="crypto-container" v-bind:key="(value, key) in cryptos">
+        <span class="left">{{ key }}</span>
+        <span class="left">${{ value }}</span>
+    </div>
     </div>
   </template>
 
@@ -8,6 +12,44 @@
 
 
   <script>
+    import axios from 'axios';
+
+    export default {
+        name: 'crypto-app',
+        data: () => ({
+            cryptos: [],
+            errors: []
+        }),
+
+        created () {
+            axios.get('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP&tsyms=USD')
+            // IOT
+            // ,EUR
+            .then(response => {
+                this.cryptos = response.data.DISPLAY
+                // console.log(response.data.DISPLAY)
+                console.log(this.cryptos)
+            })
+            .catch(e => {
+                this.errors.push(e)
+            })
+        }
+    }
+
+  </script>
+
+
+
+  <style>
+
+  </style>
+
+
+
+
+
+
+
 // import axios from "axios";
 
 
@@ -59,10 +101,3 @@
 //     this.list = result.data.data;
 //   },
 // };
-</script>
-
-
-
-<style>
-
-</style>
