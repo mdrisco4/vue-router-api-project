@@ -1,14 +1,22 @@
 <template>
   <div class="additional">
-    <!-- <div id="crypto-container" v-for="(value, key) in cryptos"> -->
-    <!-- <div id="crypto-container" v-bind:key="item in cryptos"> -->
+      <div id="column-titles">
+          <span class="left">Coin</span>
+          <span class="middle-left">Dily Low</span>
+          <span class="middle-right">Daily High</span>
+          <span class="right">Current</span>
+        </div>
     <div
       id="crypto-container"
       v-for="(item, index) in cryptos"
       v-bind:key="index"
     >
-      <span class="left">${{ item.USD.FROMSYMBOL }}</span>
-      <span class="left">{{ item.USD.PRICE }}</span>
+    <div>
+        <span class="left">{{ item.USD.FROMSYMBOL }}</span>
+        <span class="middle-left">{{ item.USD.LOWDAY }}</span>
+        <span class="middle-right">{{ item.USD.HIGHDAY }}</span>
+        <span class="right">${{ item.USD.PRICE }}</span>
+    </div>
     </div>
   </div>
 </template>
@@ -26,7 +34,7 @@ export default {
   created() {
     axios
       .get(
-        "https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP&tsyms=USD"
+        "https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,XRP,ADA,DOGE,MATIC,SOL,DOT,SHIB.LTC,TRX,ATOM,LNK,ETC&tsyms=USD"
       )
       // IOT
       // ,EUR
@@ -43,4 +51,42 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+body {
+    background-color: #f1f1f1;
+}
+
+div#column-titles {
+    background-color: lightblue;
+    width: 70%;
+    margin: 0 auto 4px auto;
+    padding: 1em;
+    box-shadow: 1px 1px 0 lightgray;
+    font-weight: 800;
+}
+
+div#crypto-container {
+    background-color: white;
+    width: 70%;
+    margin: 0 auto 4px auto;
+    padding: 1em;
+    box-shadow: 1px 1px 0 lightgray;
+}
+
+span.left {
+    font-weight: 500;
+}
+
+span.middle-left {
+    padding-left: 25%;
+}
+
+span.middle-right {
+    padding-left: 25%;
+}
+
+span.right {
+    float:right;
+}
+
+</style>
