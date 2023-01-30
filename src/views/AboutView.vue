@@ -1,6 +1,7 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1 class="header">More About This Marketplace</h1>
+    <div class="introinfo">Welcome to Crypto Marketplace.  This is not an ex change but rather a one stop website where you can find infromation about what cryptocurrency is and how it works.  Additionally there are some links on this page to good sources if you want to read more and gain a better understanding of Crypto, The Blockchain and how to start investing.</div>
     <ul class="item" v-for="item in list" :key="item.id">
       <li>{{ item.id }}</li>
       <li>{{ item.email }}</li>
@@ -32,6 +33,17 @@ export default {
 </script>
 
 <style>
+.header {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.introinfo {
+  width: 87.5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .item {
   display: flex;
   justify-content: center;

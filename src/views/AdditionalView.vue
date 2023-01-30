@@ -1,22 +1,20 @@
 <template>
   <div class="additional">
       <div id="column-titles">
-          <span class="left">Coin</span>
-          <span class="middle-left">Dily Low</span>
-          <span class="middle-right">Daily High</span>
-          <span class="right">Current</span>
+          <div class="left">Coin</div>
+          <div class="middle-left">Dily Low</div>
+          <div class="middle-right">Daily High</div>
+          <div class="right">Current</div>
         </div>
     <div
       id="crypto-container"
       v-for="(item, index) in cryptos"
       v-bind:key="index"
     >
-    <div>
-        <span class="left">{{ item.USD.FROMSYMBOL }}</span>
-        <span class="middle-left">{{ item.USD.LOWDAY }}</span>
-        <span class="middle-right">{{ item.USD.HIGHDAY }}</span>
-        <span class="right">${{ item.USD.PRICE }}</span>
-    </div>
+        <div class="left">{{ item.USD.FROMSYMBOL }}</div>
+        <div class="middle-left">{{ item.USD.LOWDAY }}</div>
+        <div class="middle-right">{{ item.USD.HIGHDAY }}</div>
+        <div class="right">${{ item.USD.PRICE }}</div>
     </div>
   </div>
 </template>
@@ -64,6 +62,7 @@ div#column-titles {
     box-shadow: 1px 1px 0 lightgray;
     font-weight: 800;
     text-decoration: underline;
+    display: flex;
 }
 
 div#crypto-container {
@@ -72,22 +71,30 @@ div#crypto-container {
     margin: 0 auto 4px auto;
     padding: 1em;
     box-shadow: 1px 1px 0 lightgray;
+    display: flex;
 }
 
-span.left {
+div.left {
     font-weight: 500;
+    width: 20%;
 }
 
-span.middle-left {
-    padding-left: 25%;
+div.middle-left {
+    width: 27.5%;
+    text-align: right;
+    /* padding-left: 25%; */
 }
 
-span.middle-right {
-    padding-left: 25%;
+div.middle-right {
+    width: 27.5%;
+    text-align: right;
+    /* padding-left: 25%; */
 }
 
-span.right {
-    float:right;
+div.right {
+    width: 25%;
+    text-align: right;
+    /* float:right; */
 }
 
 </style>
