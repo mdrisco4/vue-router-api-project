@@ -52,30 +52,34 @@
     </h1>
     <div class="all-exchanges">
     <div class="exchange-container">
-      <a class="exchanges" href="https://crypto.com/" target="_blank">Crypto.com</a>
-      <img src="https://i.imgur.com/urTkx5N.jpg" class="logo" />\
+      <a class="exchanges" href="https://crypto.com/" target="_blank">Crypto.com
+        <img src="https://i.imgur.com/urTkx5N.jpg" class="logo" />
+      </a>
     </div>
     <div class="exchange-container">
-      <a class="exchanges" href="https://www.gemini.com/" target="_blank">Gemini</a>
-      <img src="https://i.imgur.com/iMbblss.png" class="logo" />\
+      <a class="exchanges" href="https://www.gemini.com/" target="_blank">Gemini
+        <img src="https://i.imgur.com/iMbblss.png" class="logo" />
+      </a>
     </div>
     <div class="exchange-container">
-      <a class="exchanges" href="https://www.kraken.com/" target="_blank">Kraken</a>
-      <img src="https://i.imgur.com/aHYfhWi.png" class="logo" />\
+      <a class="exchanges" href="https://www.kraken.com/" target="_blank">Kraken
+        <img src="https://i.imgur.com/Fr6pIHf.png" class="logo" />
+      </a>
     </div>
     <div class="exchange-container">
-      <a class="exchanges" href="https://www.coinbase.com/" target="_blank">Coinbase</a>
-      <img src="https://i.imgur.com/gv2B3BM.png" class="logo" />\
+      <a class="exchanges" href="https://www.coinbase.com/" target="_blank">Coinbase
+        <img src="https://i.imgur.com/gv2B3BM.png" class="logo" />\
+      </a>
     </div>
   </div>
-    <ul class="item" v-for="item in list" :key="item.id">
+    <!-- <ul class="item" v-for="item in list" :key="item.id">
       <li>{{ item.id }}</li>
       <li>{{ item.email }}</li>
       <li>{{ item.first_name }} {{ item.last_name }}</li>
       <li>
         <img :src="item.avatar" />
       </li>
-    </ul>
+    </ul> -->
   </div>
 </template>
 
@@ -116,6 +120,9 @@ export default {
 .exchange-container {
   display: flex;
   flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 18%;
   /* justify-content: center; */
 }
 
@@ -124,8 +131,8 @@ export default {
 }
 
 .logo {
-  width: 75%;
-  padding-left: 12.5%;
+  /* width: 75%; */
+  /* padding-left: 10%; */
   /* justify-content: center; */
 }
 

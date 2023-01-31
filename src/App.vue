@@ -1,8 +1,8 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">API Calls</router-link> |
-    <router-link to="/additional">Additional Info</router-link>
+    <router-link to="/market">Market</router-link> |
+    <router-link to="/about">About</router-link>
   </nav>
   <router-view/>
 </template>
