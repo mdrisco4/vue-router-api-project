@@ -48,8 +48,8 @@
       having the advantage to be kept in any secure, physical location wallets
       of this type can be safely kept by users more easily.
     </div>
-    <h1 class="header">Here Are Some Sources with Additional Information</h1>
-    <h1 class="header">Below Are Links to Exchanges to Start Trading!</h1>
+    <h1 class="header">Here Are Some Sources with More Information</h1>
+    <h1 class="header">Below Are Links to Exchanges to Trade!</h1>
     <div class="all-exchanges">
       <div class="exchange-container">
         <a class="exchanges" href="https://crypto.com/" target="_blank"
@@ -108,12 +108,63 @@ export default {
 .header {
   text-align: center;
   text-decoration: underline;
+  font-size: 18px;
 }
+
+@media only screen and (min-width: 500px) {
+  .header {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 630px) {
+  .header {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .header {
+    font-size: 42px;
+  }
+}
+
 
 .introinfo {
   width: 87.5%;
   margin-left: auto;
   margin-right: auto;
+  font-size: 10px;
+}
+
+@media only screen and (min-width: 500px) {
+  .introinfo {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 630px) {
+  .introinfo {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .introinfo {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .introinfo {
+    font-size: 27px;
+  }
 }
 
 .all-exchanges {

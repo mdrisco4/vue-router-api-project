@@ -77,24 +77,172 @@ div#crypto-container {
 div.left {
     font-weight: 500;
     width: 20%;
+    font-size: 12px;
+}
+
+@media only screen and (min-width: 500px) {
+  div.left {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 625px) {
+  div.left {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  div.left {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  div.left {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  div.left {
+    
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  div.left {
+    
+  }
 }
 
 div.middle-left {
     width: 27.5%;
     text-align: right;
+    font-size: 12px;
     /* padding-left: 25%; */
+}
+
+@media only screen and (min-width: 500px) {
+    div.middle-left {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 625px) {
+    div.middle-left {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+    div.middle-left {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+    div.middle-left {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+    div.middle-left {
+    
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+    div.middle-left {
+    
+  }
 }
 
 div.middle-right {
     width: 27.5%;
     text-align: right;
+    font-size: 12px;
     /* padding-left: 25%; */
+}
+
+@media only screen and (min-width: 500px) {
+    div.middle-right {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 625px) {
+    div.middle-right {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+    div.middle-right {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+    div.middle-right {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+    div.middle-right {
+    
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+    div.middle-right {
+    
+  }
 }
 
 div.right {
     width: 25%;
     text-align: right;
+    font-size: 12px;
     /* float:right; */
+}
+
+@media only screen and (min-width: 500px) {
+    div.right {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 625px) {
+    div.right {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+    div.right {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+    div.right {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+    div.right {
+    
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+    div.right {
+    
+  }
 }
 
 </style>
