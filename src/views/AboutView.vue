@@ -2,11 +2,15 @@
   <div class="about">
     <h1 class="header">More About This Marketplace</h1>
     <div class="introinfo">
-      Welcome to Crypto Marketplace. This is not an ex change but rather a one
-      stop website where you can find infromation about what cryptocurrency is
-      and how it works. Additionally there are some links on this page to good
+      Welcome to Crypto Marketplace. This is not an exchange where you can
+      trade, but rather a one stop website where you can find infromation about
+      what cryptocurrency is and how it works. In this section you will find a
+      synopsis of exactly what cryptocurrency is and some background on the
+      technology used. Additionally there are some links on this page to some
       sources if you want to read more and gain a better understanding of
-      Crypto, The Blockchain and how to start investing.
+      Crypto, The Blockchain and how to start investing. And finally you will
+      also find some links to digital exchanges if you want to dive right into
+      trading crypto!
     </div>
     <div class="introinfo">
       Cryptocurrency is a decentralized monetary platform fueled by a technology
@@ -44,34 +48,33 @@
       having the advantage to be kept in any secure, physical location wallets
       of this type can be safely kept by users more easily.
     </div>
-    <h1 class="header">
-      Here Are Some Sources with Additional Information
-    </h1>
-    <h1 class="header">
-      Below Are Links to Exchanges to Start Trading!
-    </h1>
+    <h1 class="header">Here Are Some Sources with Additional Information</h1>
+    <h1 class="header">Below Are Links to Exchanges to Start Trading!</h1>
     <div class="all-exchanges">
-    <div class="exchange-container">
-      <a class="exchanges" href="https://crypto.com/" target="_blank">Crypto.com
-        <img src="https://i.imgur.com/urTkx5N.jpg" class="logo" />
-      </a>
+      <div class="exchange-container">
+        <a class="exchanges" href="https://crypto.com/" target="_blank"
+          >Crypto.com
+          <img src="https://i.imgur.com/urTkx5N.jpg" class="logo" />
+        </a>
+      </div>
+      <div class="exchange-container">
+        <a class="exchanges" href="https://www.gemini.com/" target="_blank"
+          >Gemini
+          <img src="https://i.imgur.com/iMbblss.png" class="logo" />
+        </a>
+      </div>
+      <div class="exchange-container">
+        <a class="exchanges" href="https://www.kraken.com/" target="_blank"
+          >Kraken
+          <img src="https://i.imgur.com/Fr6pIHf.png" class="logo" />
+        </a>
+      </div>
+      <div class="exchange-container">
+        <a class="exchanges" href="https://www.coinbase.com/" target="_blank"
+          >Coinbase <img src="https://i.imgur.com/gv2B3BM.png" class="logo" />\
+        </a>
+      </div>
     </div>
-    <div class="exchange-container">
-      <a class="exchanges" href="https://www.gemini.com/" target="_blank">Gemini
-        <img src="https://i.imgur.com/iMbblss.png" class="logo" />
-      </a>
-    </div>
-    <div class="exchange-container">
-      <a class="exchanges" href="https://www.kraken.com/" target="_blank">Kraken
-        <img src="https://i.imgur.com/Fr6pIHf.png" class="logo" />
-      </a>
-    </div>
-    <div class="exchange-container">
-      <a class="exchanges" href="https://www.coinbase.com/" target="_blank">Coinbase
-        <img src="https://i.imgur.com/gv2B3BM.png" class="logo" />\
-      </a>
-    </div>
-  </div>
     <!-- <ul class="item" v-for="item in list" :key="item.id">
       <li>{{ item.id }}</li>
       <li>{{ item.email }}</li>
