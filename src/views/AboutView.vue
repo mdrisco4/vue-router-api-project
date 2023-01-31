@@ -177,11 +177,37 @@ export default {
   margin-left: auto;
   margin-right: auto;
   width: 18%;
+  transition: transform .2s;
   /* justify-content: center; */
+}
+
+.exchange-container:hover {
+  transform: scale(1.15);
 }
 
 .exchanges {
   text-align: center;
+  text-decoration: none !important;
+  color: black;
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 550px) {
+  .exchanges {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .exchanges {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .exchanges {
+    font-size: 27px;
+  }
 }
 
 .logo {
