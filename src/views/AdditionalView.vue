@@ -2,7 +2,7 @@
   <div class="additional">
       <div id="column-titles">
           <div class="left">Coin</div>
-          <div class="middle-left">Dily Low</div>
+          <div class="middle-left">Daily Low</div>
           <div class="middle-right">Daily High</div>
           <div class="right">Current</div>
         </div>
