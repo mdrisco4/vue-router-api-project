@@ -81,8 +81,10 @@ export default {
       // ,EUR
       .then((response) => {
         this.cryptos = response.data.RAW;
-        console.log(response.data);
-        console.log(response.data.DISPLAY.BTC.USD.PRICE);
+        // console.log(response.data);
+        // console.log(response.data.DISPLAY.BTC.USD.PRICE);
+
+        
         // console.log(this.cryptos)
       })
       .catch((e) => {
@@ -248,7 +250,31 @@ div.coin-title {
   padding: 16px;
   box-shadow: 1px 1px 0 lightgray;
   height: 40px;
-  font-size: 28px;
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 500px) {
+  div.coin-title {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 625px) {
+  div.coin-title {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  div.coin-title {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  div.coin-title {
+    font-size: 32px;
+  }
 }
 
 .loop-container {
@@ -270,20 +296,92 @@ div.loop-left {
   width: 33.3%;
   text-align: right;
   padding-right: 10%;
-  font-size: 32px;
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 500px) {
+  div.loop-left {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 625px) {
+  div.loop-left {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  div.loop-left {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  div.loop-left {
+    font-size: 32px;
+  }
 }
 
 div.loop-middle {
   width: 33.3%;
   text-align: right;
   padding-right: 6%;
-  font-size: 32px;
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 500px) {
+  div.loop-middle {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 625px) {
+  div.loop-middle {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  div.loop-middle {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  div.loop-middle {
+    font-size: 32px;
+  }
 }
 
 div.loop-right {
   width: 33.3%;
   text-align: right;
   padding-right: 2%;
-  font-size: 32px;
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 500px) {
+  div.loop-right {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 625px) {
+  div.loop-right {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  div.loop-right {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  div.loop-right {
+    font-size: 32px;
+  }
 }
 </style>
