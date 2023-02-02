@@ -8,40 +8,40 @@
     </div>
     <div class="overall-comtainer">
       <div class="coins-container">
-        <router-link to="/Bitcoin">
+        <router-link to="/Bitcoin" class="coin-links">
           <div class="coin-title">BTC</div>
         </router-link>
-        <router-link to="/Ethereum">
+        <router-link to="/Ethereum" class="coin-links">
           <div class="coin-title">ETH</div>
         </router-link>
-        <router-link to="/XRP">
+        <router-link to="/XRP" class="coin-links">
           <div class="coin-title">XRP</div>
         </router-link>
-        <router-link to="/Cardano">
+        <router-link to="/Cardano" class="coin-links">
           <div class="coin-title">ADA</div>
         </router-link>
-        <router-link to="/Dogecoin">
+        <router-link to="/Dogecoin" class="coin-links">
           <div class="coin-title">DOGE</div>
         </router-link>
-        <router-link to="Polygon">
+        <router-link to="Polygon" class="coin-links">
           <div class="coin-title">MATIC</div>
         </router-link>
-        <router-link to="/Solana">
+        <router-link to="/Solana" class="coin-links">
           <div class="coin-title">SOL</div>
         </router-link>
-        <router-link to="/Polkadot">
+        <router-link to="/Polkadot" class="coin-links">
           <div class="coin-title">DOT</div>
         </router-link>
-        <router-link to="/Tron">
+        <router-link to="/Tron" class="coin-links">
           <div class="coin-title">TRX</div>
         </router-link>
-        <router-link to="/Cosmos">
+        <router-link to="/Cosmos" class="coin-links">
           <div class="coin-title">ATOM</div>
         </router-link>
-        <router-link to="/Chainlink">
+        <router-link to="/Chainlink" class="coin-links">
           <div class="coin-title">LNK</div>
         </router-link>
-        <router-link to="/EthereumClassic">
+        <router-link to="/EthereumClassic" class="coin-links">
           <div class="coin-title">ETC</div>
         </router-link>
       </div>
@@ -275,6 +275,16 @@ div.coin-title {
   div.coin-title {
     font-size: 32px;
   }
+}
+
+.coin-links {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.coin-links:hover {
+  color: red;
 }
 
 .loop-container {
