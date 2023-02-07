@@ -1,26 +1,40 @@
 <template>
-    <div class="home">
-      <div class="container">
-        <div>XRP</div>
-        <!-- <h1 class="intro">Welcome to Crypto Marketplace</h1> -->
-      </div>
+   <div class="container">
+    <div class="title">XRP</div>
+    <div class="intro-information">Some information and a blurb about coin X</div>
     </div>
-    <div>{{ cryptos.CHANGE24HOUR }}</div>
-    <div>{{ cryptos.CHANGEDAY }}</div>
-    <div>{{ cryptos.CHANGEHOUR }}</div>
-    <div>{{ cryptos.CHANGEPCT24HOUR }}</div>
-    <div>{{ cryptos.CHANGEPCTDAY }}</div>
-    <div>{{ cryptos.CHANGEPCTHOUR }}</div>
-    <div>{{ cryptos.CIRCULATINGSUPPLY }}</div>
-    <div>{{ cryptos.CIRCULATINGSUPPLYMKTCAP }}</div>
-    <div>{{ cryptos.OPENDAY }}</div>
-    <div>{{ cryptos.OPENHOUR }}</div>
-    <div>{{ cryptos.VOLUME24HOUR }}</div>
-    <div>{{ cryptos.VOLUME24HOURTO }}</div>
-    <div>{{ cryptos.VOLUMEDAY }}</div>
-    <div>{{ cryptos.VOLUMEDAYTO }}</div>
-    <div>{{ cryptos.VOLUMEHOUR }}</div>
-    <div>{{ cryptos.VOLUMEHOURTO }}</div>
+    <div class="data-label">24-Hour Change</div>
+    <div class="data-value">{{ cryptos.CHANGE24HOUR }}</div>
+    <div class="data-label">Change Today</div>
+    <div class="data-value">{{ cryptos.CHANGEDAY }}</div>
+    <div class="data-label">1-Hour Change</div>
+    <div class="data-value">{{ cryptos.CHANGEHOUR }}</div>
+    <div class="data-label">24-Hour % Change</div>
+    <div class="data-value">{{ cryptos.CHANGEPCT24HOUR }}</div>
+    <div class="data-label">Change % Today</div>
+    <div class="data-value">{{ cryptos.CHANGEPCTDAY }}</div>
+    <div class="data-label">1-Hour % Change</div>
+    <div class="data-value">{{ cryptos.CHANGEPCTHOUR }}</div>
+    <div class="data-label">Total Supply</div>
+    <div class="data-value">{{ cryptos.CIRCULATINGSUPPLY }}</div>
+    <div class="data-label">Market Cap</div>
+    <div class="data-value">{{ cryptos.CIRCULATINGSUPPLYMKTCAP }}</div>
+    <div class="data-label">Daily Opening</div>
+    <div class="data-value">{{ cryptos.OPENDAY }}</div>
+    <div class="data-label">Hourly Opening</div>
+    <div class="data-value">{{ cryptos.OPENHOUR }}</div>
+    <div class="data-label">24-Hour Volume</div>
+    <div class="data-value">{{ cryptos.VOLUME24HOUR }}</div>
+    <div class="data-label">--unknown--</div>
+    <div class="data-value">{{ cryptos.VOLUME24HOURTO }}</div>
+    <div class="data-label">Daily Volume</div>
+    <div class="data-value">{{ cryptos.VOLUMEDAY }}</div>
+    <div class="data-label">--unknown--</div>
+    <div class="data-value">{{ cryptos.VOLUMEDAYTO }}</div>
+    <div class="data-label">Hourly Volume</div>
+    <div class="data-value">{{ cryptos.VOLUMEHOUR }}</div>
+    <div class="data-label">--unknown--</div>
+    <div class="data-value">{{ cryptos.VOLUMEHOURTO }}</div>
   </template>
 
 <script>
@@ -52,3 +66,22 @@ export default {
   },
 };
 </script>
+
+<style>
+.title {
+  font-size: 30px;
+}
+
+.intro-information {
+  font-size: 24px;
+}
+
+.data-label {
+  font-size: 20px;
+}
+
+.data-value {
+  font-size: 20px; 
+}
+
+</style>
