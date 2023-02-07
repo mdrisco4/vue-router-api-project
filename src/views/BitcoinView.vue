@@ -5,22 +5,38 @@
         <!-- <h1 class="intro">Welcome to Crypto Marketplace</h1> -->
       </div>
     </div>
-    <div>{{ cryptos.CHANGE24HOUR }}</div>
-    <div>{{ cryptos.CHANGEDAY }}</div>
-    <div>{{ cryptos.CHANGEHOUR }}</div>
-    <div>{{ cryptos.CHANGEPCT24HOUR }}</div>
-    <div>{{ cryptos.CHANGEPCTDAY }}</div>
-    <div>{{ cryptos.CHANGEPCTHOUR }}</div>
-    <div>{{ cryptos.CIRCULATINGSUPPLY }}</div>
-    <div>{{ cryptos.CIRCULATINGSUPPLYMKTCAP }}</div>
-    <div>{{ cryptos.OPENDAY }}</div>
-    <div>{{ cryptos.OPENHOUR }}</div>
-    <div>{{ cryptos.VOLUME24HOUR }}</div>
-    <div>{{ cryptos.VOLUME24HOURTO }}</div>
-    <div>{{ cryptos.VOLUMEDAY }}</div>
-    <div>{{ cryptos.VOLUMEDAYTO }}</div>
-    <div>{{ cryptos.VOLUMEHOUR }}</div>
-    <div>{{ cryptos.VOLUMEHOURTO }}</div>
+    <div class="data-label">Label</div>
+    <div class="data-value">{{ cryptos.CHANGE24HOUR }}</div>
+    <div class="data-label">Label</div>
+    <div class="data-value">{{ cryptos.CHANGEDAY }}</div>
+    <div class="data-label">Label</div>
+    <div class="data-value">{{ cryptos.CHANGEHOUR }}</div>
+    <div class="data-label">Label</div>
+    <div class="data-value">{{ cryptos.CHANGEPCT24HOUR }}</div>
+    <div class="data-label">Label</div>
+    <div class="data-value">{{ cryptos.CHANGEPCTDAY }}</div>
+    <div class="data-label">Label</div>
+    <div class="data-value">{{ cryptos.CHANGEPCTHOUR }}</div>
+    <div class="data-label">Label</div>
+    <div class="data-value">{{ cryptos.CIRCULATINGSUPPLY }}</div>
+    <div class="data-label">Label</div>
+    <div class="data-value">{{ cryptos.CIRCULATINGSUPPLYMKTCAP }}</div>
+    <div class="data-label">Label</div>
+    <div class="data-value">{{ cryptos.OPENDAY }}</div>
+    <div class="data-label">Label</div>
+    <div class="data-value">{{ cryptos.OPENHOUR }}</div>
+    <div class="data-label">Label</div>
+    <div class="data-value">{{ cryptos.VOLUME24HOUR }}</div>
+    <div class="data-label">Label</div>
+    <div class="data-value">{{ cryptos.VOLUME24HOURTO }}</div>
+    <div class="data-label">Label</div>
+    <div class="data-value">{{ cryptos.VOLUMEDAY }}</div>
+    <div class="data-label">Label</div>
+    <div class="data-value">{{ cryptos.VOLUMEDAYTO }}</div>
+    <div class="data-label">Label</div>
+    <div class="data-value">{{ cryptos.VOLUMEHOUR }}</div>
+    <div class="data-label">Label</div>
+    <div class="data-value">{{ cryptos.VOLUMEHOURTO }}</div>
   </template>
 
   <script>
