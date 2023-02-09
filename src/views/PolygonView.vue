@@ -66,22 +66,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.title {
-  font-size: 30px;
-}
-
-.intro-information {
-  font-size: 24px;
-}
-
-.data-label {
-  font-size: 20px;
-}
-
-.data-value {
-  font-size: 20px; 
-}
-
-</style>
