@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="coin-page-container">
     <div class="title">Chainlink</div>
     <div class="intro-information">
       Chainlink (LINK) is a cryptocurrency and technology platform that enables

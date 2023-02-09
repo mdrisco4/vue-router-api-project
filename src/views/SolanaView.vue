@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="coin-page-container">
     <div class="title">Solana</div>
     <div class="intro-information">
       Solana (CRYPTO:SOL) is a blockchain platform known for its speed and

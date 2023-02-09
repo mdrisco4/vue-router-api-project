@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="coin-page-container">
     <div class="title">Ethereum Classic</div>
     <div class="intro-information">
       Ethereum Classic (ETC) is a decentralised, blockchain-based, open-source

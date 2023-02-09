@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="coin-page-container">
     <div class="title">Polkadot</div>
     <div class="intro-information">
       The Polkadot protocol is designed to allow unrelated blockchains to

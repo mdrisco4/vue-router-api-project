@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="coin-page-container">
     <div class="title">Cosmos</div>
     <div class="intro-information">
       The Cosmos (ATOM) network is an ecosystem of blockchains that can scale

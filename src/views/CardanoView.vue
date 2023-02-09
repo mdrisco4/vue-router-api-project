@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="coin-page-container">
     <div class="title">Cardano</div>
     <div class="intro-information">
       Cardano is a proof-of-stake blockchain platform: the first to be founded

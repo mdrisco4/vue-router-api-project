@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="coin-page-container">
     <div class="title">XRP</div>
     <div class="intro-information">
       Ripple (XRP) is a cryptocurrency token designed to migrate transactions

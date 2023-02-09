@@ -100,11 +100,12 @@ body {
 }
 
 div#column-titles {
-  background-color: lightblue;
+  color: yellow;
+  background-color: black;
   width: 70%;
   margin: 0 auto 4px auto;
-  padding: 1em;
-  box-shadow: 1px 1px 0 lightgray;
+  border: 1em 1em 0 1em solid black;
+  /* box-shadow: 1px 1px 0 lightgray; */
   font-weight: 800;
   text-decoration: underline;
   display: flex;
@@ -241,7 +242,7 @@ div.overall-container {
 div.coins-container {
   width: 20%;
   float: left;
-  margin-left: 14%;
+  border-left: 13.5vw solid black;
   /* border-left: 14%;
   border-left-color: black; */
 }
@@ -292,7 +293,8 @@ div.coin-title {
 .loop-container {
   width: 52%;
   float: right;
-  margin-right: 14%;
+  /* margin-right: 14%; */
+  border-right: 13.5vw solid black;
 }
 
 div#crypto-container {
@@ -307,8 +309,14 @@ div#crypto-container {
 div.loop-left {
   width: 33.3%;
   text-align: right;
-  padding-right: 10%;
-  font-size: 12px;
+  /* padding-right: 10%; */
+  font-size: 9px;
+}
+
+@media only screen and (min-width: 500px) {
+  div.loop-middle {
+    font-size: 12px;
+  }
 }
 
 @media only screen and (min-width: 500px) {
@@ -338,8 +346,14 @@ div.loop-left {
 div.loop-middle {
   width: 33.3%;
   text-align: right;
-  padding-right: 6%;
-  font-size: 12px;
+  /* padding-right: 6%; */
+  font-size: 9px;
+}
+
+@media only screen and (min-width: 400px) {
+  div.loop-middle {
+    font-size: 12px;
+  }
 }
 
 @media only screen and (min-width: 500px) {
@@ -369,8 +383,14 @@ div.loop-middle {
 div.loop-right {
   width: 33.3%;
   text-align: right;
-  padding-right: 2%;
-  font-size: 12px;
+  /* padding-right: 2%; */
+  font-size: 9px;
+}
+
+@media only screen and (min-width: 400px) {
+  div.loop-right {
+    font-size: 12px;
+  }
 }
 
 @media only screen and (min-width: 500px) {

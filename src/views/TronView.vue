@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="coin-page-container">
     <div class="title">Tron</div>
     <div class="intro-information">
       Tron is a blockchain-based decentralized digital platform with its own

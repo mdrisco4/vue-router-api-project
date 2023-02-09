@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="coin-page-container">
     <div class="title">Ethereum</div>
     <div class="intro-information">
       Ethereum is a decentralized blockchain platform that establishes a

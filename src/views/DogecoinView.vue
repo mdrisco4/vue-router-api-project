@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="coin-page-container">
     <div class="title">Dogecoin</div>
     <div class="intro-information">
       Dogecoin (DOGE) is a peer-to-peer, open-source cryptocurrency. It is

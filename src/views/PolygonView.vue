@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="coin-page-container">
     <div class="title">Polygon</div>
     <div class="intro-information">
       The Ethereum blockchain is home to a vast range of economic activity —

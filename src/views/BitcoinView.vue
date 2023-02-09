@@ -1,6 +1,5 @@
 <template>
   <div class="coin-page-container">
-  <div class="container">
     <div class="title">BITCOIN</div>
     <div class="intro-information">
       Bitcoin (BTC) is a cryptocurrency, a virtual currency designed to act as
@@ -95,7 +94,6 @@
       </div>
     </div>
   </div>
-</div>
 </template>
 
 <script>
@@ -196,6 +194,7 @@ export default {
 .data-label {
   font-size: 12px;
   text-align: center;
+  background-color: aqua;
 }
 
 @media only screen and (min-width: 500px) {
@@ -225,6 +224,7 @@ export default {
 .data-value {
   font-size: 12px;
   text-align: center;
+  background-color: aqua;
 }
 
 @media only screen and (min-width: 500px) {
@@ -254,31 +254,31 @@ export default {
 .overall-data-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 12px;
+  border-top: 12px solid aqua;
 }
 
 @media only screen and (min-width: 500px) {
   .overall-data-container {
-    margin-top: 15px;
+    border-top: 15px solid aqua;
   }
 }
 
 @media only screen and (min-width: 625px) {
   .overall-data-container {
-    margin-top: 18px;
+    border-top: 18px solid aqua;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .overall-data-container {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-top: 27px;
+    border-top: 27px solid aqua;
   }
 }
 
 @media only screen and (min-width: 980px) {
   .overall-data-container {
-    margin-top: 32px;
+    border-top: 32px solid aqua;
   }
 }
 
