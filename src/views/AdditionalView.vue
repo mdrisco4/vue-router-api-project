@@ -242,6 +242,8 @@ div.coins-container {
   width: 20%;
   float: left;
   margin-left: 14%;
+  /* border-left: 14%;
+  border-left-color: black; */
 }
 
 div.coin-title {

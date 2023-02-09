@@ -1,4 +1,5 @@
 <template>
+  <div class="coin-page-container">
   <div class="container">
     <div class="title">BITCOIN</div>
     <div class="intro-information">
@@ -94,6 +95,7 @@
       </div>
     </div>
   </div>
+</div>
 </template>
 
 <script>
@@ -127,6 +129,10 @@ export default {
 </script>
 
 <style>
+.coin-page-container {
+  background-color: aqua;
+}
+
 .title {
   font-size: 30px;
   text-align: center;

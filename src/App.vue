@@ -1,8 +1,8 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/market">Market</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/" class="router-link">Home</router-link> |
+    <router-link to="/market" class="router-link">Market</router-link> |
+    <router-link to="/about" class="router-link">About</router-link>
   </nav>
   <router-view/>
 </template>
@@ -13,11 +13,17 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+  background-color: black;
+}
+
+.router-link {
+  color: yellow;
 }
 
 nav {
   padding: 30px;
   text-align: center;
+  color: yellow;
 }
 
 @media only screen and (min-width: 500px) {
@@ -98,6 +104,7 @@ nav a {
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  /* color: #42b983; */
+  color: red;
 }
 </style>
