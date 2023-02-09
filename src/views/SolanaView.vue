@@ -1,23 +1,22 @@
 <template>
-    <div class="container">
+  <div class="container">
     <div class="title">Solana</div>
     <div class="intro-information">
-      Bitcoin (BTC) is a cryptocurrency, a virtual currency designed to act as
-      money and a form of payment outside the control of any one person, group,
-      or entity, thus removing the need for third-party involvement in financial
-      transactions. It is rewarded to blockchain miners for the work done to
-      verify transactions and can be purchased on several exchanges.
+      Solana (CRYPTO:SOL) is a blockchain platform known for its speed and
+      efficiency. SOL tokens are its native cryptocurrency and are used to pay
+      its transaction fees. Since launching in 2017, Solana has grown to become
+      one of the largest cryptocurrencies in the world.
     </div>
     <div class="intro-information">
-      Bitcoin was introduced to the public in 2009 by an anonymous developer or
-      group of developers using the name Satoshi Nakamoto.
+      Because the Solana blockchain has smart contract capability, developers
+      can use it to build decentralized apps (dApps). Its strong growth has
+      helped establish it as a rival to other major programmable blockchains,
+      including Ethereum (CRYPTO:ETH) and Cardano (CRYPTO:ADA).
     </div>
     <div class="intro-information">
-      It has since become the most well-known cryptocurrency in the world. Its
-      popularity has inspired the development of many other cryptocurrencies.
-      These competitors either attempt to replace it as a payment system or are
-      used as utility or security tokens in other blockchains and emerging
-      financial technologies.
+      Solana is in a competitive marketplace, but there are several reasons to
+      be bullish on it. Read on for a detailed guide to Solana to learn more and
+      decide if you should invest.
     </div>
   </div>
   <div class="overall-data-container">
@@ -94,7 +93,7 @@
       </div>
     </div>
   </div>
-  </template>
+</template>
 
 <script>
 import axios from "axios";

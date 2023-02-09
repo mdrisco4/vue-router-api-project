@@ -1,23 +1,26 @@
 <template>
-   <div class="container">
+  <div class="container">
     <div class="title">Chainlink</div>
     <div class="intro-information">
-      Bitcoin (BTC) is a cryptocurrency, a virtual currency designed to act as
-      money and a form of payment outside the control of any one person, group,
-      or entity, thus removing the need for third-party involvement in financial
-      transactions. It is rewarded to blockchain miners for the work done to
-      verify transactions and can be purchased on several exchanges.
+      Chainlink (LINK) is a cryptocurrency and technology platform that enables
+      non-blockchain enterprises to securely connect with blockchain platforms.
+      Chainlink is middleware that connects blockchain-based smart contracts
+      with external data, such as baseball scores or stock prices. Chainlink's
+      LINK currency pays Chainlink network operators and collateralizes the
+      network's smart contract agreements.
     </div>
     <div class="intro-information">
-      Bitcoin was introduced to the public in 2009 by an anonymous developer or
-      group of developers using the name Satoshi Nakamoto.
+      Chainlink is known as a decentralized oracle network or blockchain
+      abstraction layer. Chainlink uses blockchain technology to securely enable
+      computations on and off chain, supporting what it calls hybrid smart
+      contracts. Enterprises using Chainlink can access any major blockchain
+      network, including Ethereum and Solana.
     </div>
     <div class="intro-information">
-      It has since become the most well-known cryptocurrency in the world. Its
-      popularity has inspired the development of many other cryptocurrencies.
-      These competitors either attempt to replace it as a payment system or are
-      used as utility or security tokens in other blockchains and emerging
-      financial technologies.
+      The Chainlink blockchain is hosted on the Ethereum platform, which uses
+      the proof-of-stake operating protocol. In addition, Chainlink is an
+      open-source blockchain project, meaning anyone can view the project's code
+      and contribute.
     </div>
   </div>
   <div class="overall-data-container">
@@ -94,7 +97,7 @@
       </div>
     </div>
   </div>
-  </template>
+</template>
 
 <script>
 import axios from "axios";

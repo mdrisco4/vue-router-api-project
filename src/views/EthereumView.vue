@@ -1,23 +1,33 @@
 <template>
-    <div class="container">
+  <div class="container">
     <div class="title">Ethereum</div>
     <div class="intro-information">
-      Bitcoin (BTC) is a cryptocurrency, a virtual currency designed to act as
-      money and a form of payment outside the control of any one person, group,
-      or entity, thus removing the need for third-party involvement in financial
-      transactions. It is rewarded to blockchain miners for the work done to
-      verify transactions and can be purchased on several exchanges.
+      Ethereum is a decentralized blockchain platform that establishes a
+      peer-to-peer network that securely executes and verifies application code,
+      called smart contracts. Smart contracts allow participants to transact
+      with each other without a trusted central authority. Transaction records
+      are immutable, verifiable, and securely distributed across the network,
+      giving participants full ownership and visibility into transaction data.
+      Transactions are sent from and received by user-created Ethereum accounts.
+      A sender must sign transactions and spend Ether, Ethereum's native
+      cryptocurrency, as a cost of processing transactions on the network.
     </div>
     <div class="intro-information">
-      Bitcoin was introduced to the public in 2009 by an anonymous developer or
-      group of developers using the name Satoshi Nakamoto.
-    </div>
-    <div class="intro-information">
-      It has since become the most well-known cryptocurrency in the world. Its
-      popularity has inspired the development of many other cryptocurrencies.
-      These competitors either attempt to replace it as a payment system or are
-      used as utility or security tokens in other blockchains and emerging
-      financial technologies.
+      Ethereum offers an extremely flexible platform on which to build
+      decentralized applications using the native Solidity scripting language
+      and Ethereum Virtual Machine. Decentralized application developers who
+      deploy smart contracts on Ethereum benefit from the rich ecosystem of
+      developer tooling and established best practices that have come with the
+      maturity of the protocol. This maturity also extends into the quality of
+      user-experience for the average user of Ethereum applications, with
+      wallets like MetaMask, Argent, Rainbow and more offering simple interfaces
+      through which to interact with the Ethereum blockchain and smart contracts
+      deployed there. Ethereum’s large user base encourages developers to deploy
+      their applications on the network, which further reinforces Ethereum as
+      the primary home for decentralized applications like DeFi and NFTs. In the
+      future, the backwards-compatible Ethereum 2.0 protocol, currently under
+      development, will provide a more scalable network on which to build
+      decentralized applications that require higher transaction throughput.
     </div>
   </div>
   <div class="overall-data-container">
@@ -94,7 +104,7 @@
       </div>
     </div>
   </div>
-  </template>
+</template>
 
 <script>
 import axios from "axios";

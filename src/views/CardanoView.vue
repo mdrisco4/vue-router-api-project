@@ -1,23 +1,16 @@
 <template>
-    <div class="container">
+  <div class="container">
     <div class="title">Cardano</div>
     <div class="intro-information">
-      Bitcoin (BTC) is a cryptocurrency, a virtual currency designed to act as
-      money and a form of payment outside the control of any one person, group,
-      or entity, thus removing the need for third-party involvement in financial
-      transactions. It is rewarded to blockchain miners for the work done to
-      verify transactions and can be purchased on several exchanges.
+      Cardano is a proof-of-stake blockchain platform: the first to be founded
+      on peer-reviewed research and developed through evidence-based methods. It
+      combines pioneering technologies to provide unparalleled security and
+      sustainability to decentralized applications, systems, and societies.
     </div>
     <div class="intro-information">
-      Bitcoin was introduced to the public in 2009 by an anonymous developer or
-      group of developers using the name Satoshi Nakamoto.
-    </div>
-    <div class="intro-information">
-      It has since become the most well-known cryptocurrency in the world. Its
-      popularity has inspired the development of many other cryptocurrencies.
-      These competitors either attempt to replace it as a payment system or are
-      used as utility or security tokens in other blockchains and emerging
-      financial technologies.
+      With a leading team of engineers, Cardano exists to redistribute power
+      from unaccountable structures to the margins – to individuals – and be an
+      enabling force for positive change and progress.
     </div>
   </div>
   <div class="overall-data-container">
@@ -94,7 +87,7 @@
       </div>
     </div>
   </div>
-  </template>
+</template>
 
 <script>
 import axios from "axios";

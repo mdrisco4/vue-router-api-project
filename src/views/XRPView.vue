@@ -1,23 +1,18 @@
 <template>
-   <div class="container">
+  <div class="container">
     <div class="title">XRP</div>
     <div class="intro-information">
-      Bitcoin (BTC) is a cryptocurrency, a virtual currency designed to act as
-      money and a form of payment outside the control of any one person, group,
-      or entity, thus removing the need for third-party involvement in financial
-      transactions. It is rewarded to blockchain miners for the work done to
-      verify transactions and can be purchased on several exchanges.
+      Ripple (XRP) is a cryptocurrency token designed to migrate transactions
+      from central databases controlled by financial institutions to a more open
+      infrastructure while significantly cutting costs. XRP transactions are
+      trustless, instant and cheap, putting them at an advantage for
+      cross-border movements.
     </div>
     <div class="intro-information">
-      Bitcoin was introduced to the public in 2009 by an anonymous developer or
-      group of developers using the name Satoshi Nakamoto.
-    </div>
-    <div class="intro-information">
-      It has since become the most well-known cryptocurrency in the world. Its
-      popularity has inspired the development of many other cryptocurrencies.
-      These competitors either attempt to replace it as a payment system or are
-      used as utility or security tokens in other blockchains and emerging
-      financial technologies.
+      Launched in 2012, the cryptocurrency has one of the most ambitious goals
+      in the cryptocurrency space. The software enabling the use of XRP — the
+      XRP Ledger — proposed a new way of operating blockchains that proponents
+      claim is more suitable for transactions.
     </div>
   </div>
   <div class="overall-data-container">
@@ -94,7 +89,7 @@
       </div>
     </div>
   </div>
-  </template>
+</template>
 
 <script>
 import axios from "axios";

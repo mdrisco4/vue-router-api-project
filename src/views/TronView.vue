@@ -1,23 +1,20 @@
 <template>
-    <div class="container">
+  <div class="container">
     <div class="title">Tron</div>
     <div class="intro-information">
-      Bitcoin (BTC) is a cryptocurrency, a virtual currency designed to act as
-      money and a form of payment outside the control of any one person, group,
-      or entity, thus removing the need for third-party involvement in financial
-      transactions. It is rewarded to blockchain miners for the work done to
-      verify transactions and can be purchased on several exchanges.
+      Tron is a blockchain-based decentralized digital platform with its own
+      cryptocurrency, called Tronix or TRX. Founded in 2017 by a Singapore
+      non-profit organization, the Tron Foundation, Tron aims to host a global
+      entertainment system for the cost-effective sharing of digital content.
     </div>
     <div class="intro-information">
-      Bitcoin was introduced to the public in 2009 by an anonymous developer or
-      group of developers using the name Satoshi Nakamoto.
+      Initially marketed primarily in Asia, Tron had now gone global. The
+      platform had more than 50 million accounts as of August 2021.
     </div>
     <div class="intro-information">
-      It has since become the most well-known cryptocurrency in the world. Its
-      popularity has inspired the development of many other cryptocurrencies.
-      These competitors either attempt to replace it as a payment system or are
-      used as utility or security tokens in other blockchains and emerging
-      financial technologies.
+      Founded by Justin Sun, now its CEO, Tron has offices in Singapore and San
+      Francisco. Born in 1990, Sun also is the CEO of BitTorrent, the
+      file-sharing program.
     </div>
   </div>
   <div class="overall-data-container">
@@ -94,7 +91,7 @@
       </div>
     </div>
   </div>
-  </template>
+</template>
 
 <script>
 import axios from "axios";

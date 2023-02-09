@@ -1,23 +1,25 @@
 <template>
-    <div class="container">
+  <div class="container">
     <div class="title">Polygon</div>
     <div class="intro-information">
-      Bitcoin (BTC) is a cryptocurrency, a virtual currency designed to act as
-      money and a form of payment outside the control of any one person, group,
-      or entity, thus removing the need for third-party involvement in financial
-      transactions. It is rewarded to blockchain miners for the work done to
-      verify transactions and can be purchased on several exchanges.
+      The Ethereum blockchain is home to a vast range of economic activity —
+      from NFT markets and games to the growing DeFi ecosystem. Ethereum is well
+      suited to this activity because it’s compatible with smart contracts,
+      which can be used to build a vast range of applications.
     </div>
     <div class="intro-information">
-      Bitcoin was introduced to the public in 2009 by an anonymous developer or
-      group of developers using the name Satoshi Nakamoto.
+      However, the growing popularity of these applications adds many
+      transactions to the Ethereum blockchain — and as a result, transaction
+      fees (also known as “gas”) can sometimes rise to the point where making
+      small or frequent investments can be economically unviable.
     </div>
     <div class="intro-information">
-      It has since become the most well-known cryptocurrency in the world. Its
-      popularity has inspired the development of many other cryptocurrencies.
-      These competitors either attempt to replace it as a payment system or are
-      used as utility or security tokens in other blockchains and emerging
-      financial technologies.
+      Enter Polygon, which is a “Layer 2” scaling solution (or “sidechain”)
+      that’s emerged to provide faster transactions and lower costs for users.
+      It acts as a speedy parallel blockchain running alongside the main
+      Ethereum blockchain. To use it, you can “bridge” some of your crypto over
+      to Polygon, and then interact with a wide range of popular crypto apps
+      that were once exclusive to the main Ethereum blockchain.
     </div>
   </div>
   <div class="overall-data-container">
@@ -94,7 +96,7 @@
       </div>
     </div>
   </div>
-  </template>
+</template>
 
 <script>
 import axios from "axios";
