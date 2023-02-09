@@ -100,10 +100,10 @@ body {
 }
 
 div#column-titles {
-  color: yellow;
+  color: white;
   background-color: black;
   width: 70%;
-  margin: 0 auto 4px auto;
+  margin: 0 auto 0 auto;
   border: 1em 1em 0 1em solid black;
   /* box-shadow: 1px 1px 0 lightgray; */
   font-weight: 800;
@@ -311,10 +311,12 @@ div.loop-left {
   text-align: right;
   /* padding-right: 10%; */
   font-size: 9px;
+  overflow: hidden;
+  max-width: 9.5ch;
 }
 
-@media only screen and (min-width: 500px) {
-  div.loop-middle {
+@media only screen and (min-width: 400px) {
+  div.loop-left {
     font-size: 12px;
   }
 }
