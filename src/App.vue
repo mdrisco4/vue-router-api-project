@@ -17,13 +17,13 @@
 }
 
 .router-link {
-  color: yellow;
+  color: white;
 }
 
 nav {
   padding: 30px;
   text-align: center;
-  color: yellow;
+  color: white;
 }
 
 @media only screen and (min-width: 500px) {
@@ -105,6 +105,6 @@ nav a {
 
 nav a.router-link-exact-active {
   /* color: #42b983; */
-  color: red;
+  color: greenyellow;
 }
 </style>

@@ -109,7 +109,7 @@ export default {
   text-align: center;
   text-decoration: underline;
   font-size: 18px;
-  color: lightblue;
+  color: aqua;
 }
 
 @media only screen and (min-width: 500px) {
@@ -142,7 +142,8 @@ export default {
   margin-left: auto;
   margin-right: auto;
   font-size: 10px;
-  color: lightblue;
+  color: aqua;
+  text-align: center;
 }
 
 @media only screen and (min-width: 500px) {
