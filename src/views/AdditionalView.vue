@@ -248,7 +248,8 @@ div.coins-container {
 }
 
 div.coin-title {
-  background-color: white;
+  color: white;
+  background-color: black;
   margin: 0 auto 4px auto;
   padding: 16px;
   /* box-shadow: 1px 1px 0 lightgray; */
@@ -298,7 +299,8 @@ div.coin-title {
 }
 
 div#crypto-container {
-  background-color: white;
+  color: white;
+  background-color: black;
   margin: 0 auto 4px auto;
   padding: 1em;
   /* box-shadow: 1px 1px 0 lightgray; */
@@ -307,6 +309,8 @@ div#crypto-container {
 }
 
 div.loop-left {
+  /* color: white;
+  background-color: black; */
   width: 33.3%;
   text-align: right;
   /* padding-right: 10%; */
