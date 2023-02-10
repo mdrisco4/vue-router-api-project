@@ -26,6 +26,7 @@ img {
 
 .container {
   position: relative;
+  border-bottom: 500px solid black;
 }
 
 .intro {

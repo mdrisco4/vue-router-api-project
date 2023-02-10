@@ -247,6 +247,10 @@ div.coins-container {
   border-left-color: black; */
 }
 
+div.coin-title:hover {
+  color: yellowgreen;
+}
+
 div.coin-title {
   color: white;
   background-color: black;
