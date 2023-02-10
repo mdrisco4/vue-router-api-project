@@ -255,6 +255,7 @@ export default {
   display: grid;
   grid-template-columns: 1fr 1fr;
   border-top: 12px solid aqua;
+  border-bottom: 200px solid aqua;
 }
 
 @media only screen and (min-width: 500px) {
