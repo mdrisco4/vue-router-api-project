@@ -53,8 +53,8 @@
           v-bind:key="index"
         >
           <!-- <div class="loop-left">{{ item.USD.FROMSYMBOL }}</div> -->
-          <div class="loop-left">{{ item.USD.LOWDAY }}</div>
-          <div class="loop-middle">{{ item.USD.HIGHDAY }}</div>
+          <div class="loop-left">${{ item.USD.LOWDAY }}</div>
+          <div class="loop-middle">${{ item.USD.HIGHDAY }}</div>
           <div class="loop-right">${{ item.USD.PRICE }}</div>
         </div>
       </div>
@@ -251,7 +251,7 @@ div.coin-title {
   background-color: white;
   margin: 0 auto 4px auto;
   padding: 16px;
-  box-shadow: 1px 1px 0 lightgray;
+  /* box-shadow: 1px 1px 0 lightgray; */
   height: 40px;
   font-size: 12px;
 }
@@ -301,7 +301,7 @@ div#crypto-container {
   background-color: white;
   margin: 0 auto 4px auto;
   padding: 1em;
-  box-shadow: 1px 1px 0 lightgray;
+  /* box-shadow: 1px 1px 0 lightgray; */
   display: flex;
   height: 40px;
 }
