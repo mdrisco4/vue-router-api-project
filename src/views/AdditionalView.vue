@@ -113,7 +113,7 @@ div#column-titles {
 
 div.left {
   font-weight: 500;
-  width: 20%;
+  width: 25%;
   font-size: 12px;
 }
 
@@ -142,10 +142,10 @@ div.left {
 }
 
 div.middle-left {
-  width: 27.5%;
+  width: 25%;
   text-align: right;
   font-size: 12px;
-  /* padding-left: 25%; */
+  text-align: right;
 }
 
 @media only screen and (min-width: 500px) {
@@ -173,10 +173,10 @@ div.middle-left {
 }
 
 div.middle-right {
-  width: 27.5%;
+  width: 25%;
   text-align: right;
   font-size: 12px;
-  /* padding-left: 25%; */
+  text-align: right;
 }
 
 @media only screen and (min-width: 500px) {
@@ -207,7 +207,7 @@ div.right {
   width: 25%;
   text-align: right;
   font-size: 12px;
-  /* float:right; */
+  text-align: right;
 }
 
 @media only screen and (min-width: 500px) {
@@ -242,9 +242,15 @@ div.overall-container {
 div.coins-container {
   width: 20%;
   float: left;
-  border-left: 13.5vw solid black;
+  border-left: 12vw solid black;
   /* border-left: 14%;
   border-left-color: black; */
+}
+
+@media only screen and (min-width: 400px) {
+  div.coins-container {
+    border-left: 14.5vw solid black;
+  }
 }
 
 div.coin-title:hover {
@@ -298,8 +304,8 @@ div.coin-title {
 .loop-container {
   width: 52%;
   float: right;
-  /* margin-right: 14%; */
-  border-right: 13.5vw solid black;
+
+  border-right: 12.5vw solid black;
 }
 
 div#crypto-container {
@@ -307,20 +313,15 @@ div#crypto-container {
   background-color: black;
   margin: 0 auto 4px auto;
   padding: 1em;
-  /* box-shadow: 1px 1px 0 lightgray; */
   display: flex;
   height: 40px;
 }
 
 div.loop-left {
-  /* color: white;
-  background-color: black; */
   width: 33.3%;
-  text-align: right;
-  /* padding-right: 10%; */
   font-size: 9px;
   overflow: hidden;
-  max-width: 9.5ch;
+  text-align: right;
 }
 
 @media only screen and (min-width: 400px) {
@@ -356,7 +357,6 @@ div.loop-left {
 div.loop-middle {
   width: 33.3%;
   text-align: right;
-  /* padding-right: 6%; */
   font-size: 9px;
 }
 
@@ -393,7 +393,6 @@ div.loop-middle {
 div.loop-right {
   width: 33.3%;
   text-align: right;
-  /* padding-right: 2%; */
   font-size: 9px;
 }
 
