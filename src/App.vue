@@ -21,6 +21,10 @@
   text-decoration: none;
 }
 
+.router-link:hover {
+  color: yellow;
+}
+
 nav {
   padding: 30px;
   text-align: center;

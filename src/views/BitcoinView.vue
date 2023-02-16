@@ -1,17 +1,17 @@
 <template>
   <div class="coins-links-container">
-    <router-link to="/Bitcoin" class="coin-page-link"> BTC </router-link>|
-    <router-link to="/Ethereum" class="coin-page-link"> ETH </router-link>|
-    <router-link to="/XRP" class="coin-page-link"> XRP </router-link>|
-    <router-link to="/Cardano" class="coin-page-link"> ADA </router-link>|
-    <router-link to="/Dogecoin" class="coin-page-link"> DOGE </router-link>|
-    <router-link to="Polygon" class="coin-page-link"> MATIC </router-link>|
-    <router-link to="/Solana" class="coin-page-link"> SOL </router-link>|
-    <router-link to="/Polkadot" class="coin-page-link"> DOT </router-link>|
-    <router-link to="/Tron" class="coin-page-link"> TRX </router-link>|
-    <router-link to="/Cosmos" class="coin-page-link"> ATOM </router-link>|
-    <router-link to="/Chainlink" class="coin-page-link"> LNK </router-link>|
-    <router-link to="/EthereumClassic" class="coin-page-link">ETC</router-link>
+    <router-link to="/Bitcoin" class="coin-page-link" exact-active-class="exact-active-link"> BTC </router-link>|
+    <router-link to="/Ethereum" class="coin-page-link" exact-active-class="exact-active-link"> ETH </router-link>|
+    <router-link to="/XRP" class="coin-page-link" exact-active-class="exact-active-link"> XRP </router-link>|
+    <router-link to="/Cardano" class="coin-page-link" exact-active-class="exact-active-link"> ADA </router-link>|
+    <router-link to="/Dogecoin" class="coin-page-link" exact-active-class="exact-active-link"> DOGE </router-link>|
+    <router-link to="Polygon" class="coin-page-link" exact-active-class="exact-active-link"> MATIC </router-link>|
+    <router-link to="/Solana" class="coin-page-link" exact-active-class="exact-active-link"> SOL </router-link>|
+    <router-link to="/Polkadot" class="coin-page-link" exact-active-class="exact-active-link"> DOT </router-link>|
+    <router-link to="/Tron" class="coin-page-link" exact-active-class="exact-active-link"> TRX </router-link>|
+    <router-link to="/Cosmos" class="coin-page-link" exact-active-class="exact-active-link"> ATOM </router-link>|
+    <router-link to="/Chainlink" class="coin-page-link" exact-active-class="exact-active-link"> LNK </router-link>|
+    <router-link to="/EthereumClassic" class="coin-page-link" exact-active-class="exact-active-link">ETC</router-link>
   </div>
   <div class="coin-page-container">
     <div class="title">BITCOIN</div>
@@ -147,7 +147,37 @@ export default {
   background-color: black;
   justify-content: center;
   color: white;
-  font-size: 21px;
+  font-size: 8px;
+}
+
+@media only screen and (min-width: 500px) {
+  .coins-links-container {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 625px) {
+  .coins-links-container {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .coins-links-container {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .coins-links-container {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .coins-links-container {
+    font-size: 32px;
+  }
 }
 
 .coin-page-link {
@@ -155,16 +185,46 @@ export default {
   font-weight: bold;
   padding-left: 4px;
   padding-right: 4px;
-  font-size: 21px;
+  font-size: 8px;
   color: white;
+}
+
+@media only screen and (min-width: 500px) {
+  .coin-page-link {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 625px) {
+  .coin-page-link {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .coin-page-link {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .coin-page-link {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .coin-page-link {
+    font-size: 32px;
+  }
 }
 
 .coin-page-link:hover {
   color: yellow;
 }
 
-nav a.coin-page-link-exact-active {
-  color: red;
+.exact-active-link {
+  color: greenyellow;;
 }
 
 .coin-page-container {
