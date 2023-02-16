@@ -1,4 +1,18 @@
 <template>
+  <div class="coins-links-container">
+    <router-link to="/Bitcoin" class="coin-page-link"> BTC </router-link>|
+    <router-link to="/Ethereum" class="coin-page-link"> ETH </router-link>|
+    <router-link to="/XRP" class="coin-page-link"> XRP </router-link>|
+    <router-link to="/Cardano" class="coin-page-link"> ADA </router-link>|
+    <router-link to="/Dogecoin" class="coin-page-link"> DOGE </router-link>|
+    <router-link to="Polygon" class="coin-page-link"> MATIC </router-link>|
+    <router-link to="/Solana" class="coin-page-link"> SOL </router-link>|
+    <router-link to="/Polkadot" class="coin-page-link"> DOT </router-link>|
+    <router-link to="/Tron" class="coin-page-link"> TRX </router-link>|
+    <router-link to="/Cosmos" class="coin-page-link"> ATOM </router-link>|
+    <router-link to="/Chainlink" class="coin-page-link"> LNK </router-link>|
+    <router-link to="/EthereumClassic" class="coin-page-link">ETC</router-link>
+  </div>
   <div class="coin-page-container">
     <div class="title">Dogecoin</div>
     <div class="intro-information">

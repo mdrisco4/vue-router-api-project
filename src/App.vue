@@ -18,6 +18,7 @@
 
 .router-link {
   color: white;
+  text-decoration: none;
 }
 
 nav {

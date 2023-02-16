@@ -146,17 +146,24 @@ export default {
   flex-direction: row;
   background-color: black;
   justify-content: center;
+  color: white;
+  font-size: 21px;
 }
 
 .coin-page-link {
   text-decoration: none;
+  font-weight: bold;
   padding-left: 4px;
   padding-right: 4px;
   font-size: 21px;
   color: white;
 }
 
-.coin-page-link :active {
+.coin-page-link:hover {
+  color: yellow;
+}
+
+nav a.coin-page-link-exact-active {
   color: red;
 }
 
