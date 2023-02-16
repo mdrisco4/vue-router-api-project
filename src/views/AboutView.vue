@@ -48,7 +48,7 @@
       having the advantage to be kept in any secure, physical location wallets
       of this type can be safely kept by users more easily.
     </div>
-    <h1 class="header">Here Are Some Sources with More Information</h1>
+    <!-- <h1 class="header">Here Are Some Sources with More Information</h1> -->
     <h1 class="header">Below Are Links to Exchanges to Trade!</h1>
     <div class="all-exchanges">
       <div class="exchange-container">
@@ -71,18 +71,10 @@
       </div>
       <div class="exchange-container">
         <a class="exchanges" href="https://www.coinbase.com/" target="_blank"
-          >Coinbase <img src="https://i.imgur.com/gv2B3BM.png" class="logo" />\
+          >Coinbase <img src="https://i.imgur.com/gv2B3BM.png" class="logo" />
         </a>
       </div>
     </div>
-    <!-- <ul class="item" v-for="item in list" :key="item.id">
-      <li>{{ item.id }}</li>
-      <li>{{ item.email }}</li>
-      <li>{{ item.first_name }} {{ item.last_name }}</li>
-      <li>
-        <img :src="item.avatar" />
-      </li>
-    </ul> -->
   </div>
 </template>
 
@@ -172,6 +164,7 @@ export default {
 
 .all-exchanges {
   display: flex;
+  border-bottom: 40px solid black;
 }
 
 .exchange-container {
@@ -191,7 +184,7 @@ export default {
 .exchanges {
   text-align: center;
   text-decoration: none !important;
-  color: black;
+  color: white;
   font-size: 12px;
 }
 
