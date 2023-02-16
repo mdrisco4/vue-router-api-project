@@ -4,6 +4,8 @@
       <img src="../assets/CryptoBackground2.jpeg" />
       <h1 class="intro">Welcome to Crypto Marketplace</h1>
     </div>
+    <div class="landing-page-intro">Crypto Marketplace is a site designed to give anyone interested into getting into investing in cryptocurrency a variety of information to get started.  In this site you can find information about what cryptocurrency is, how it works, current market prices and stats, links to exchanges and more.
+    </div>
   </div>
 </template>
 
@@ -26,7 +28,7 @@ img {
 
 .container {
   position: relative;
-  border-bottom: 500px solid black;
+  /* border-bottom: 500px solid black; */
 }
 
 .intro {
@@ -83,6 +85,42 @@ img {
 @media only screen and (min-width: 1100px) {
   .intro {
     font-size: 81px;
+  }
+}
+
+.landing-page-intro {
+  background-color: black;
+  color: white;
+  border-bottom: 500px solid black;
+  border-top: 20px solid black;
+  text-align: center;
+  width: 85%;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  font-size: 15px;
+}
+
+@media only screen and (min-width: 500px) {
+  .landing-page-intro {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 625px) {
+  .landing-page-intro {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .landing-page-intro {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  .landing-page-intro {
+    font-size: 39px;
   }
 }
 </style>

@@ -147,6 +147,7 @@ export default {
   background-color: black;
   justify-content: center;
   color: white;
+  border-bottom: 12px solid black;
   font-size: 8px;
 }
 
