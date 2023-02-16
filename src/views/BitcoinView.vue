@@ -1,4 +1,18 @@
 <template>
+  <div class="coins-links-container">
+    <router-link to="/Bitcoin" class="coin-page-link"> BTC </router-link>|
+    <router-link to="/Ethereum" class="coin-page-link"> ETH </router-link>|
+    <router-link to="/XRP" class="coin-page-link"> XRP </router-link>|
+    <router-link to="/Cardano" class="coin-page-link"> ADA </router-link>|
+    <router-link to="/Dogecoin" class="coin-page-link"> DOGE </router-link>|
+    <router-link to="Polygon" class="coin-page-link"> MATIC </router-link>|
+    <router-link to="/Solana" class="coin-page-link"> SOL </router-link>|
+    <router-link to="/Polkadot" class="coin-page-link"> DOT </router-link>|
+    <router-link to="/Tron" class="coin-page-link"> TRX </router-link>|
+    <router-link to="/Cosmos" class="coin-page-link"> ATOM </router-link>|
+    <router-link to="/Chainlink" class="coin-page-link"> LNK </router-link>|
+    <router-link to="/EthereumClassic" class="coin-page-link">ETC</router-link>
+  </div>
   <div class="coin-page-container">
     <div class="title">BITCOIN</div>
     <div class="intro-information">
@@ -127,6 +141,25 @@ export default {
 </script>
 
 <style>
+.coins-links-container {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  justify-content: center;
+}
+
+.coin-page-link {
+  text-decoration: none;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-size: 21px;
+  color: white;
+}
+
+.coin-page-link :active {
+  color: red;
+}
+
 .coin-page-container {
   background-color: aqua;
 }
