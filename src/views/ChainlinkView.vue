@@ -88,26 +88,26 @@
         <div class="data-value">{{ cryptos.VOLUME24HOUR }}</div>
       </div>
       <div class="individual-stat-container">
-        <div class="data-label">--unknown--</div>
-        <div class="data-value">{{ cryptos.VOLUME24HOURTO }}</div>
+        <div class="data-label">Hourly Volume</div>
+        <div class="data-value">{{ cryptos.VOLUMEHOUR }}</div>
       </div>
     </div>
     <div class="stats-column-container">
+      <div class="individual-stat-container">
+        <div class="data-label">High Day</div>
+        <div class="data-value">{{ cryptos.HIGHDAY }}</div>
+      </div>
+      <div class="individual-stat-container">
+        <div class="data-label">High Hour</div>
+        <div class="data-value">{{ cryptos.HIGHHOUR }}</div>
+      </div>
       <div class="individual-stat-container">
         <div class="data-label">Daily Volume</div>
         <div class="data-value">{{ cryptos.VOLUMEDAY }}</div>
       </div>
       <div class="individual-stat-container">
-        <div class="data-label">--unknown--</div>
-        <div class="data-value">{{ cryptos.VOLUMEDAYTO }}</div>
-      </div>
-      <div class="individual-stat-container">
-        <div class="data-label">Hourly Volume</div>
-        <div class="data-value">{{ cryptos.VOLUMEHOUR }}</div>
-      </div>
-      <div class="individual-stat-container">
-        <div class="data-label">--unknown--</div>
-        <div class="data-value">{{ cryptos.VOLUMEHOURTO }}</div>
+        <div class="data-label">Median</div>
+        <div class="data-value">{{ cryptos.MEDIAN }}</div>
       </div>
     </div>
   </div>
