@@ -4,7 +4,9 @@
       <img src="../assets/CryptoBackground2.jpeg" />
       <h1 class="intro">Welcome to Crypto Marketplace</h1>
     </div>
-    <div class="landing-page-intro">Crypto Marketplace is a site designed to give anyone interested into getting into investing in cryptocurrency a variety of information to get started.  In this site you can find information about what cryptocurrency is, how it works, current market prices and stats, links to exchanges and more.
+    <div class="landing-page-intro">Crypto Marketplace is a site designed to give anyone interested into getting into
+      investing in cryptocurrency a set of tools and information to get started. You can find information here about
+      what cryptocurrency is, how it works, current market prices and stats, links to exchanges and more.
     </div>
   </div>
 </template>
